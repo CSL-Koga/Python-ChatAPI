@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accountverwaltung</title>
+    <link rel="stylesheet" type="text/css" href="managementstyle.css"> <!-- Verweise auf deine CSS-Datei -->
+</head>
+<body>
+    <div class="container">
+        <h1>Accountverwaltung</h1>
+
+        <div class="input-group">
+            <label for="username">Benutzername:</label>
+            <input type="text" id="username" placeholder="Benutzername">
+        </div>
+
+        <div class="input-group">
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" placeholder="Passwort">
+        </div>
+
+        <button onclick="createAccount()">Account erstellen</button>
+        <button onclick="deleteAccount()">Account löschen</button>
+
+        <p><a href="./index.html">Login</a></p>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script>
+        function goToLogin() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
