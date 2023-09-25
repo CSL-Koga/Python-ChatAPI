@@ -10,3 +10,6 @@ The Project runs on a Flask Server and can therefore be called from any other Pr
 # Example
 There is a Example WebUI which can be found in [/Frontend](https://github.com/CSL-Koga/Python-ChatAPI/tree/main/Frontend)
 There you can see how such a system might be interfaced with and used. To use it just start the Flask server in [/Backend](https://github.com/CSL-Koga/Python-ChatAPI/tree/main/Backend) using the command line; `Flask run -p 80`
+
+# Disclaimer
+This Project is very basic and can only take you so far, please consider building you own features into the codebase and expanding this Project.
